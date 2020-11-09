@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://elastic-goldstine-62569b.netlify.app/">
+    <a href="https://nostalgic-lumiere-0c8b61.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/oztoto/dc_buttons">
+    <a href="https://github.com/shoichi-sasaki/dc_buttons">
       Solution
     </a>
     <span> | </span>
