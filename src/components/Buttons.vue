@@ -2,7 +2,7 @@
   <div id="display">
     <div class="sub-title">Buttons</div>
     <div class="buttons-box">
-      <Button />
+      <Button variant="huaghuga" disableShadow/>
       <!-- <div v-for="item in items" :key="item" class="contents">{{ item }}</div> -->
     </div>
   </div>

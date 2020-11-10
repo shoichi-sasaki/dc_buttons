@@ -1,14 +1,23 @@
 <template>
   <div>
-    <button>Default</button>
+    <button>Default</button><br>
+    {{variant}}<br>
+    {{disableShadow}}<br>
   </div>
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
+import { Component,Prop, Vue } from "vue-property-decorator";
 
 @Component
-export default class Button extends Vue {}
+export default class Button extends Vue {
+  @Prop({ default: ''})
+  variant!: string;
+
+  @Prop({ default: false})
+  disableShadow!: boolean;
+
+}
 </script>
 
 <style scoped>
